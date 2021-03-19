@@ -1,0 +1,28 @@
+{
+  "name": "organize-music",
+  "version": "0.1.0",
+  "description": "This will rename and organize music files based on their ID3 tag metadata. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg index.js -t node12-win-x64 --output dist/organize-music.exe"
+  },
+  "keywords": [
+    "music",
+    "tags",
+    "organize",
+    "id3",
+    "mp3"
+  ],
+  "author": "Koury Lape",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "globby": "^11.0.0",
+    "got": "^11.1.0",
+    "minimist": "^1.2.5",
+    "node-id3": "^0.2.2",
+    "slash": "^3.0.0"
+  }
+}
